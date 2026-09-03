@@ -1,8 +1,4 @@
-# CSC111-Project-2
-
 # Modelling and Analyzing the Toronto Urban Public Transit Network
-
-**Team Members:** Shreyas Shastry, Anson Li, Matthew He, Alan Wen Zhuo Xue
 
 ## Project Overview
 This project models the Toronto Transit Commission (TTC) network as a weighted directed graph to identify the system's most critical stations. By computationally simulating disruptions (by disabling one stop at a time) and recalculating shortest paths using our custom implemented Dijkstra's algorithm, we assign an "impact score" to each stop. The results are visualized geographically using Plotly MapLibre to highlight the most essential transit hubs with the feature to view all stations and their scores as a whole or to simulate our algorithm in action when 1 stop is broken.
